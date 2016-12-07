@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container{
+            font-size: 0;
+        }
+        .box{
+            display:inline-block;
+            vertical-align: middle;
+            width:300px;
+            height:500px;
+            overflow: auto;
+            background-color: sandybrown;
+            font-size: 0;
+        }
+        .box::before{
+            display:inline-block;
+            content:"";
+            vertical-align: middle;
+            height:100%;
+        }
+        .box .content{
+            vertical-align: middle;
+            display:inline-block;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <div class="box">
+           <div class="content">
+               <h1>WOW</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quasi temporibus eum fugit, consequuntur soluta sed inventore aliquam excepturi, voluptatibus saepe, placeat dolore ipsa? Ab molestias facere enim veritatis accusantium.</p>
+            <div/>
+        <div/>
+        <div class="box">
+           <div class="content">
+               <h1>WOW</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quasi temporibus eum fugit, consequuntur soluta sed inventore aliquam excepturi, voluptatibus saepe, placeat dolore ipsa? Ab molestias facere enim veritatis accusantium.</p>
+            <div/>
+        <div/>
+        <div class="box">
+           <div class="content">
+               <h1>WOW</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quasi temporibus eum fugit, consequuntur soluta sed inventore aliquam excepturi, voluptatibus saepe, placeat dolore ipsa? Ab molestias facere enim veritatis accusantium.</p>
+            <div/>
+        <div/>     
+   </div>
+</body>
+</html>
